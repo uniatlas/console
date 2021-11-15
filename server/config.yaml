@@ -274,13 +274,6 @@ client:
           tabs:
             - { name: projects, title: PROJECT_PL }
             - { name: federatedprojects, title: MULTI_CLUSTER_PROJECT_PL }
-        - {
-            name: devops,
-            title: DEVOPS_PROJECT_PL,
-            icon: strategy-group,
-            ksModule: devops,
-            skipAuth: true,
-          }
         - name: apps
           title: APPS_MANAGEMENT
           icon: appcenter
