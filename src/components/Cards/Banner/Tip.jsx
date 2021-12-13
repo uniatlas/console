@@ -18,7 +18,7 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import Icon from '@kube-design/components'
+import { Button, Icon } from '@kube-design/components'
 import classnames from 'classnames'
 
 import styles from './index.scss'
@@ -80,7 +80,9 @@ export default class Tip extends React.Component {
         <div className={styles.operations} onClick={this.stopPropagation}>
           {operation}
           {more && (
-            <a href={more} target="_blank" rel="noreferrer noopener"></a>
+            <a href={more} target="_blank" rel="noreferrer noopener">
+              <Button></Button>
+            </a>
           )}
           {closable && (
             <Icon name="close" size={20} clickable onClick={this.handleClose} />
