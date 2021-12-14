@@ -79,11 +79,7 @@ export default class Tip extends React.Component {
         </div>
         <div className={styles.operations} onClick={this.stopPropagation}>
           {operation}
-          {more && (
-            <a href={more} target="_blank" rel="noreferrer noopener">
-              <Button></Button>
-            </a>
-          )}
+          {more && <Button></Button>}
           {closable && (
             <Icon name="close" size={20} clickable onClick={this.handleClose} />
           )}
