@@ -25,19 +25,19 @@ module.exports = {
   disconnected: '未连接',
   'Kubeconfig File': 'Kubeconfig 文件',
   'Put this into': '把它加入到',
-  'KubeSphere Terminal': 'KubeSphere 终端',
+  'KubeSphere Terminal': '终端',
   'Download File': '下载文件',
 
   KUBECONFIG_TIP: `
     <h2><a id="KubeConfig__0"></a>配置方法</h2>
-    <p>通过使用 kubeconfig 文件配置当前集群的访问信息。<a href="https://kubernetes.io/zh/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" target="_blank">了解更多</a></p>
+    <p>通过使用 kubeconfig 文件配置当前集群的访问信息。</p>
   `,
 
   VIEW_KUBE_CONFIG: '查看或下载当前集群的 kubeconfig 文件。',
 
   KUBECTL_TIP: `
     <h2><a id="KubeCtl__0"></a>命令参考</h2>
-    <p>您可以参考以下 kubectl 命令。<a href="https://kubernetes.io/zh/docs/reference/kubectl/overview/" target="_blank">了解更多</a></p>
+    <p>您可以参考以下 kubectl 命令。</p>
     <h3><a id="kubectl__3"></a>自定义输出</h3>
     <ul>
     <li>查看容器组的更多信息</li>

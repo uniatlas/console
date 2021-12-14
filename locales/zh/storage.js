@@ -142,8 +142,7 @@ module.exports = {
     '当前存储卷已挂载至工作负载，因此扩容会导致工作负载重启，并产生新的版本。可能业务会短暂的中断。',
   Expand: '扩容',
 
-  QINGCLOUD_CSI_DESC:
-    '使用 QingCloud CSI 作为底层存储插件。<a href="https://github.com/yunify/qingcloud-csi/blob/master/README.md">了解更多</a>',
+  QINGCLOUD_CSI_DESC: '使用 QingCloud CSI 作为底层存储插件。',
 
   QINGCLOUD_CSI_TYPE_DESC:
     '在青云云平台中，0 代表性能型硬盘；2 代表容量型硬盘；3 代表超高性能型硬盘；5 代表企业级分布式 SAN（NeonSAN）型硬盘；100 代表基础型硬盘；200 代表 SSD 企业型硬盘。',
@@ -226,7 +225,7 @@ module.exports = {
   CLUSTER_VOLUME_DIFF_DESC: '在不同的集群中使用不同的存储设置。',
 
   VOLUME_MONITORING_TIP:
-    '目前仅支持采集已挂载存储卷的用量数据，并且 OpenEBS、Local PV、NFS 等路径型存储卷的用量数据通常与实际值有一定出入。<a href="https://github.com/kubesphere/kubesphere/issues/2921" target="_blank">了解更多</a>',
+    '目前仅支持采集已挂载存储卷的用量数据，并且 OpenEBS、Local PV、NFS 等路径型存储卷的用量数据通常与实际值有一定出入。',
 
   VOLUME_FUNCTION_MANAGEMENT_TIP:
     '存储卷管理只控制是否在 KubeSphere Web 控制台启用以下功能。开启前，请联系系统管理员确认存储系统是否支持这些功能。',

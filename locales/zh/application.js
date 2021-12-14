@@ -28,11 +28,11 @@ module.exports = {
   APP_TEMPLATE_PL: '应用模板',
   TEMPLATE_BASED_APP_PL: '基于模板的应用',
   NO_TEMPLATE_BASED_APP_FOUND: '未发现基于模板的应用',
-  TEMPLATE_BASED_APP_EMPTY_DESC: '请从 KubeSphere 应用商店或应用模板创建应用。',
+  TEMPLATE_BASED_APP_EMPTY_DESC: '请从应用商店或应用模板创建应用。',
   APP_TEMPLATE_LOW: '应用模板',
   APP_TEMPLATE_EMPTY_DESC: '请创建一个应用模板。',
   DEPLOY: '部署',
-  APP_TYPES_Q: 'KubeSphere 支持哪些应用类型？',
+  APP_TYPES_Q: '支持哪些应用类型？',
   TOTAL_APPS: '共计 {num} 个应用',
   TOTAL_COLLECTIONS: '共计 {num} 个接收器',
   Upgrade: '升级',
@@ -137,7 +137,7 @@ module.exports = {
 
   APPLICATIONS_DESC:
     '应用为用户提供完整的业务功能，由一个或多个特定功能的组件组成。',
-  CREATE_APP_DESC: '从 KubeSphere 应用商店或应用模板创建应用。',
+  CREATE_APP_DESC: '从应用商店或应用模板创建应用。',
   APPLICATION_GOVERNANCE_DESC:
     '开启应用治理后可以对应用使用流量监控、灰度发布和链路追踪功能。',
 
@@ -221,7 +221,7 @@ module.exports = {
   WORKLOAD_NAME_EXIST: '工作负载 {name} 已存在',
 
   APP_TYPES_A:
-    'KubeSphere 支持基于模板的应用和自制应用。基于模板的应用创建自 KubeSphere 应用商店或应用模板，自制应用由用户自定义。',
+    '支持基于模板的应用和自制应用。基于模板的应用创建自应用商店或应用模板，自制应用由用户自定义。',
 
   APPLICATION_SERVICE_DESC: '根据需求为应用添加有状态服务或无状态服务。',
   APP_BASIC_INFORMATION_DESC: '设置应用的基本信息。',
@@ -231,7 +231,7 @@ module.exports = {
 
   'App Types': '应用的类型',
   TIP_APP_TYPE:
-    'KubeSphere 支持来自于应用商店和应用仓库的应用部署(基于 Helm)，同样也支持自制应用 (Application CRD)。',
+    '支持来自于应用商店和应用仓库的应用部署(基于 Helm)，同样也支持自制应用 (Application CRD)。',
   'How to use Application Governance': '如何使用应用治理',
   TIP_APP_GOVERNANCE:
     '使用应用治理需要创建自制应用并对每项服务开启服务治理功能',
@@ -239,13 +239,13 @@ module.exports = {
   FROM_APP_STORE: '从应用商店',
   FROM_APP_TEMPLATE: '从应用模板',
   'From third party Helm': '来自第三方 Helm',
-  FROM_APP_STORE_DESC: '从 KubeSphere 应用商店创建应用。',
+  FROM_APP_STORE_DESC: '从应用商店创建应用。',
   FROM_APP_TEMPLATE_DESC: '从企业空间或远程应用仓库中的应用模板创建应用。',
   COMPOSED_APP_EMPTY_DESC: '请创建一个自制应用。',
   APP_TEMPLATES_MODAL_DESC:
     '从下拉列表中选择当前企业空间或远程应用仓库以查看可用的应用模板。',
   APP_REPOS_DESC:
-    '应用仓库来自于第三方的 Helm Chart Repo，通过可视化的方式在 KubeSphere 中展示并提供部署及管理功能，用户可以基于应用仓库中的模板快速地一键部署应用。',
+    '应用仓库来自于第三方的 Helm Chart Repo，通过可视化的方式展示并提供部署及管理功能，用户可以基于应用仓库中的模板快速地一键部署应用。',
 
   CURRENT_WORKSPACE: '当前企业空间',
   SELECT_APP_REPOSITORY: '选择应用仓库',

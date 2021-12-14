@@ -29,7 +29,7 @@ module.exports = {
   TEMPLATE_BASED_APP_PL: 'Template-Based Apps',
   NO_TEMPLATE_BASED_APP_FOUND: 'No Template-Based App Found',
   TEMPLATE_BASED_APP_EMPTY_DESC:
-    'Please create an app from the KubeSphere App Store or an app template.',
+    'Please create an app from theApp Store or an app template.',
   APP_TEMPLATE_LOW: 'app template',
   APP_TEMPLATE_EMPTY_DESC: 'Please create an app template.',
   DEPLOY: '部署',
@@ -219,7 +219,7 @@ module.exports = {
   WORKLOAD_NAME_EXIST: '工作負載 {name} 已存在',
 
   APP_TYPES_A:
-    'KubeSphere 支持來自於應用商店和應用倉庫的應用部署(基於 Helm)，同樣也支持自制應用(Application CRD)。',
+    '支持來自於應用商店和應用倉庫的應用部署(基於 Helm)，同樣也支持自制應用(Application CRD)。',
 
   APPLICATION_SERVICE_DESC:
     '根據應用中服務類型的不同設置不同類型的服務組件，支持無狀態服務和有狀態服務',
@@ -231,7 +231,7 @@ module.exports = {
 
   'App Types': '應用的類型',
   TIP_APP_TYPE:
-    'KubeSphere 支持來自於應用商店和應用倉庫的應用部署(基於 Helm)，同样也支持自制應用(Application CRD)。',
+    '支持來自於應用商店和應用倉庫的應用部署(基於 Helm)，同样也支持自制應用(Application CRD)。',
   'How to use Application Governance': '如何使用應用治理',
   TIP_APP_GOVERNANCE:
     '使用應用治理需要創建自制應用並對每項服務開啟服務治理功能',
@@ -239,16 +239,15 @@ module.exports = {
   FROM_APP_STORE: '來自應用商店',
   FROM_APP_TEMPLATE: '來自應用模板',
   'From third party Helm': '來自第三方 Helm',
-  FROM_APP_STORE_DESC:
-    '來自KubeSphere官方應用商店，提供高質量應用和簡易的部署方式',
+  FROM_APP_STORE_DESC: '來自官方應用商店，提供高質量應用和簡易的部署方式',
   FROM_APP_TEMPLATE_DESC:
     '來自於企業空間的自制應用模板以及應用倉庫中添加的第三方 Helm 應用模板',
   COMPOSED_APP_EMPTY_DESC:
     '通過資源編排的方式發佈服務構建應用(支持應用治理功能)',
   APP_TEMPLATES_MODAL_DESC:
-    '應用模板來自於企業空間和第三方的 Helm 應用模板，支持一鍵部署並可通過視覺化的方式在 KubeSphere 中展示並提供部署及管理的功能',
+    '應用模板來自於企業空間和第三方的 Helm 應用模板，支持一鍵部署並可通過視覺化的方式在中展示並提供部署及管理的功能',
   APP_REPOS_DESC:
-    '應用倉庫來自於第三方的 Helm Chart Repo，通過視覺化的方式在 KubeSphere 中展示並提供部署及管理功能，用戶可以基於應用倉庫中的模板快速地一鍵部署應用。',
+    '應用倉庫來自於第三方的 Helm Chart Repo，通過視覺化的方式在中展示並提供部署及管理功能，用戶可以基於應用倉庫中的模板快速地一鍵部署應用。',
 
   CURRENT_WORKSPACE: '來自企業空間',
   SELECT_APP_REPOSITORY: 'Select app repository',

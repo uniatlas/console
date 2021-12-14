@@ -25,7 +25,7 @@ module.exports = {
   disconnected: '未連接',
   'Kubeconfig File': 'Kubeconfig 檔案',
   'Put this into': '把它加入到',
-  'KubeSphere Terminal': 'KubeSphere 終端',
+  'KubeSphere Terminal': '終端',
   'Download File': '下載檔案',
 
   KUBECONFIG_TIP: `
