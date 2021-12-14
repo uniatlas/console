@@ -159,9 +159,9 @@ module.exports = {
 
   SPECIFY_NODE_DESC: '将节点的标签作为预填充内容',
 
-  SERVICE_TYPES_Q: 'KubeSphere 支持哪些服务类型？',
+  SERVICE_TYPES_Q: '支持哪些服务类型？',
   SERVICE_TYPES_A:
-    'KubeSphere 支持无状态服务和有状态服务。无状态服务中的多个容器组副本共享一个存储卷，有状态服务中的每个容器组副本都拥有独立的存储卷。',
+    '支持无状态服务和有状态服务。无状态服务中的多个容器组副本共享一个存储卷，有状态服务中的每个容器组副本都拥有独立的存储卷。',
 
   SCENARIOS_FOR_SERVICES_Q: '无状态服务和有状态服务分别适用于哪些场景？',
   SCENARIOS_FOR_SERVICES_A:

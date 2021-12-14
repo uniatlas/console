@@ -50,7 +50,7 @@ module.exports = {
     'Application governance is not enabled',
   'Application Icon': 'App Icon',
   'Application Route': 'App Route',
-  APP_TYPES_Q: 'What app types does KubeSphere support?',
+  APP_TYPES_Q: 'What app types does support?',
   APP_VERSION: 'App Version',
   APP_PL: 'Apps',
   'Base ejection time (s)': 'Base ejection time (s)',
@@ -172,11 +172,10 @@ module.exports = {
   TOTAL_APPS: 'Total {num} applications',
 
   APPLICATIONS_DESC:
-    'An app provides users with comprehensive business functions in one package. App templates in KubeSphere are built on the Helm packaging specification. They are delivered through a unified public or private Helm repository. An app is composed of one or more Kubernetes objects including Workloads, Services and Ingress.',
-  CREATE_APP_DESC:
-    'Create an app from the KubeSphere App Store or an app template.',
+    'An app provides users with comprehensive business functions in one package. App templates are built on the Helm packaging specification. They are delivered through a unified public or private Helm repository. An app is composed of one or more Kubernetes objects including Workloads, Services and Ingress.',
+  CREATE_APP_DESC: 'Create an app from the App Store or an app template.',
   TEMPLATE_BASED_APP_EMPTY_DESC:
-    'Please create an app from the KubeSphere App Store or an app template.',
+    'Please create an app from the App Store or an app template.',
   LB_ALG_DESC:
     'Support standard load balancing algorithms</br>ROUND_ROBIN：Polling, the default load balancing algorithm.</br>LEAST_CONN：Randomly select two healthy hosts, and then select one host with fewer links from the selected two hosts.</br>RANDOM：Pick one randomly from all healthy hosts.',
   LB_ROUND_ROBIN: 'ROUND_ROBIN',
@@ -216,13 +215,13 @@ module.exports = {
   WORKLOAD_NAME_EXIST: 'Workload {name} exists',
 
   APP_TYPES_A:
-    'KubeSphere supports templated-based apps and composed apps. Template-based apps are created from You can deploy apps from the KubeSphere App Store or an app template. Composed apps are customized by users.',
+    'supports templated-based apps and composed apps. Template-based apps are created from You can deploy apps from the App Store or an app template. Composed apps are customized by users.',
 
   HOW_TO_USE_APP_GOVERN_Q: 'How do I use Application Governance?',
   HOW_TO_USE_APP_GOVERN_A:
     'You can enable Application Governance when you create a composed app.',
 
-  FROM_APP_STORE_DESC: 'Create an app from the KubeSphere App Store.',
+  FROM_APP_STORE_DESC: 'Create an app from the App Store.',
   FROM_APP_TEMPLATE_DESC:
     'Create an app from an app template in the current workspace or in a remote app repository.',
   COMPOSED_APP_EMPTY_DESC: 'Please create a composed app.',
@@ -234,7 +233,7 @@ module.exports = {
   TIP_APP_GOVERNANCE:
     'Using App Governance requires creating a homebrew app and turning on service governance for each service',
   APP_REPOS_DESC:
-    'The app repository comes from a third-party Helm Chart Repo, which visually displays and provides deployment and management capabilities in KubeSphere. Users can quickly deploy applications with one click based on templates in the app repository.',
+    'The app repository comes from a third-party Helm Chart Repo, which visually displays and provides deployment and management capabilities. Users can quickly deploy applications with one click based on templates in the app repository.',
 
   APP_BASIC_INFORMATION_DESC: 'Set the basic information about the app.',
 
